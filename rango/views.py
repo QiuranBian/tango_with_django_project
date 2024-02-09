@@ -204,6 +204,7 @@ def register(request):
                 'registered': registered})
 
 
+
 def user_login(request):
 # If the request is a HTTP POST, try to pull out the relevant information.
     if request.method == 'POST':
