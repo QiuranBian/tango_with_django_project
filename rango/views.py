@@ -195,7 +195,6 @@ def register(request):
  # These forms will be blank, ready for user input.
         user_form = UserForm()
         profile_form = UserProfileForm()
-        
 
  # Render the template depending on the context.
     return render(request,
